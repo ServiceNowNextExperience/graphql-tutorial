@@ -2,7 +2,7 @@
 
 Tutorial on configuring a GraphQL api and hooking it up to UI Builder.
 
-## Version: San Diego, Tokyo
+## Version: San Diego, Tokyo, Utah, Vancouver, Xanadu, Zurich
 
 ## Getting started
 
