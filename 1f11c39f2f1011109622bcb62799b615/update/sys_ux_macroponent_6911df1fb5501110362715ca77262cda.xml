@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ux_macroponent">
-  <sys_ux_macroponent action="INSERT_OR_UPDATE">
-    <associated_types/>
-    <category>page</category>
-    <component_dependencies/>
-    <composition>[ {
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
   "elementId" : "b7478b61a8d42010f877849f4a95680c_Main",
   "elementLabel" : "Main",
   "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
@@ -15,10 +18,6 @@
         "message" : "",
         "comment" : ""
       }
-    },
-    "ariaRegionHeadingLevel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "1"
     },
     "includeAriaHeading" : {
       "type" : "JSON_LITERAL",
@@ -44,6 +43,10 @@
       "elementId" : "container_2",
       "elementLabel" : "Container 2",
       "propertyValues" : {
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
         "ariaRegionName" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -55,10 +58,6 @@
         "includeAriaHeading" : {
           "type" : "JSON_LITERAL",
           "value" : false
-        },
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
         },
         "type" : {
           "type" : "JSON_LITERAL",
@@ -80,6 +79,10 @@
           "elementId" : "container_2_Main",
           "elementLabel" : "Main",
           "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
@@ -87,10 +90,6 @@
                 "message" : "",
                 "comment" : ""
               }
-            },
-            "ariaRegionHeadingLevel" : {
-              "type" : "JSON_LITERAL",
-              "value" : "1"
             },
             "includeAriaHeading" : {
               "type" : "JSON_LITERAL",
@@ -116,6 +115,10 @@
               "elementId" : "container_3",
               "elementLabel" : "Container 3",
               "propertyValues" : {
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
                 "ariaRegionName" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -127,10 +130,6 @@
                 "includeAriaHeading" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
-                },
-                "ariaRegionHeadingLevel" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "1"
                 },
                 "type" : {
                   "type" : "JSON_LITERAL",
@@ -152,6 +151,10 @@
                   "elementId" : "container_3_Main",
                   "elementLabel" : "Main",
                   "propertyValues" : {
+                    "ariaRegionHeadingLevel" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "1"
+                    },
                     "ariaRegionName" : {
                       "type" : "TRANSLATION_LITERAL",
                       "value" : {
@@ -159,10 +162,6 @@
                         "message" : "",
                         "comment" : ""
                       }
-                    },
-                    "ariaRegionHeadingLevel" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "1"
                     },
                     "includeAriaHeading" : {
                       "type" : "JSON_LITERAL",
@@ -188,6 +187,10 @@
                       "elementId" : "container_13",
                       "elementLabel" : "Container 13",
                       "propertyValues" : {
+                        "ariaRegionHeadingLevel" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "1"
+                        },
                         "ariaRegionName" : {
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
@@ -199,10 +202,6 @@
                         "includeAriaHeading" : {
                           "type" : "JSON_LITERAL",
                           "value" : false
-                        },
-                        "ariaRegionHeadingLevel" : {
-                          "type" : "JSON_LITERAL",
-                          "value" : "1"
                         },
                         "type" : {
                           "type" : "JSON_LITERAL",
@@ -224,6 +223,10 @@
                           "elementId" : "stylized_text_1",
                           "elementLabel" : "Stylized text 1",
                           "propertyValues" : {
+                            "css" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : ""
+                            },
                             "text" : {
                               "type" : "TRANSLATION_LITERAL",
                               "value" : {
@@ -235,10 +238,6 @@
                             "tag" : {
                               "type" : "JSON_LITERAL",
                               "value" : "h3"
-                            },
-                            "css" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : ""
                             }
                           },
                           "eventMappings" : [ ],
@@ -253,11 +252,10 @@
                             "value" : ""
                           },
                           "isHero" : false,
+                          "extensionPoints" : [ ],
                           "isNonDestructive" : false,
-                          "styles" : {
-                            "padding-left" : "var(--now-static-space--lg)",
-                            "color" : "rgb(var(--now-heading--header-secondary--color,var(--now-color_text--secondary,var(--now-color--neutral-15,44,53,55))))"
-                          }
+                          "items" : [ ],
+                          "styles" : null
                         } ],
                         "layout" : {
                           "default" : {
@@ -278,14 +276,18 @@
                         "value" : null
                       },
                       "isHero" : false,
+                      "extensionPoints" : [ ],
                       "isNonDestructive" : false,
-                      "styles" : {
-                        "width" : "100%"
-                      }
+                      "items" : [ ],
+                      "styles" : null
                     }, {
                       "elementId" : "container_14",
                       "elementLabel" : "Container 14",
                       "propertyValues" : {
+                        "ariaRegionHeadingLevel" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "1"
+                        },
                         "ariaRegionName" : {
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
@@ -297,10 +299,6 @@
                         "includeAriaHeading" : {
                           "type" : "JSON_LITERAL",
                           "value" : false
-                        },
-                        "ariaRegionHeadingLevel" : {
-                          "type" : "JSON_LITERAL",
-                          "value" : "1"
                         },
                         "type" : {
                           "type" : "JSON_LITERAL",
@@ -322,21 +320,13 @@
                           "elementId" : "button_1",
                           "elementLabel" : "Button 1",
                           "propertyValues" : {
-                            "variant" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : "primary"
-                            },
                             "size" : {
                               "type" : "JSON_LITERAL",
                               "value" : "md"
                             },
-                            "label" : {
-                              "type" : "TRANSLATION_LITERAL",
-                              "value" : {
-                                "code" : null,
-                                "message" : "List Example",
-                                "comment" : ""
-                              }
+                            "variant" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "primary"
                             },
                             "icon" : {
                               "type" : "JSON_LITERAL",
@@ -345,6 +335,14 @@
                             "disabled" : {
                               "type" : "JSON_LITERAL",
                               "value" : false
+                            },
+                            "label" : {
+                              "type" : "TRANSLATION_LITERAL",
+                              "value" : {
+                                "code" : null,
+                                "message" : "List Example",
+                                "comment" : ""
+                              }
                             },
                             "tooltipContent" : {
                               "type" : "TRANSLATION_LITERAL",
@@ -412,12 +410,10 @@
                             "value" : null
                           },
                           "isHero" : false,
+                          "extensionPoints" : [ ],
                           "isNonDestructive" : false,
-                          "styles" : {
-                            "padding" : "var(--now-static-space--lg)",
-                            "padding-right" : "var(--now-static-space--lg)",
-                            "padding-left" : "var(--now-static-space--lg)"
-                          }
+                          "items" : [ ],
+                          "styles" : null
                         } ],
                         "layout" : {
                           "default" : {
@@ -438,10 +434,10 @@
                         "value" : null
                       },
                       "isHero" : false,
+                      "extensionPoints" : [ ],
                       "isNonDestructive" : false,
-                      "styles" : {
-                        "width" : "100%"
-                      }
+                      "items" : [ ],
+                      "styles" : null
                     } ],
                     "layout" : {
                       "default" : {
@@ -462,14 +458,18 @@
                     "value" : null
                   },
                   "isHero" : false,
+                  "extensionPoints" : [ ],
                   "isNonDestructive" : false,
-                  "styles" : {
-                    "height" : "100%"
-                  }
+                  "items" : [ ],
+                  "styles" : null
                 }, {
                   "elementId" : "container_11",
                   "elementLabel" : "Container 11",
                   "propertyValues" : {
+                    "ariaRegionHeadingLevel" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "1"
+                    },
                     "ariaRegionName" : {
                       "type" : "TRANSLATION_LITERAL",
                       "value" : {
@@ -481,10 +481,6 @@
                     "includeAriaHeading" : {
                       "type" : "JSON_LITERAL",
                       "value" : false
-                    },
-                    "ariaRegionHeadingLevel" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "1"
                     },
                     "type" : {
                       "type" : "JSON_LITERAL",
@@ -510,7 +506,7 @@
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
                             "code" : null,
-                            "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/p&gt;\n&lt;p&gt;Available in Github at the &lt;a title=\"ServiceNow Next Experience\" href=\"https://github.com/ServiceNowNextExperience/graphql-tutorial\" target=\"_blank\" rel=\"noopener\"&gt;ServiceNow Next Experience&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+                            "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. &lt;a href=\"https://www.servicenow.com/community/now-platform-articles/using-data-from-your-graphql-api-in-ui-builder-part-3-of-3/ta-p/2315430\"&gt;Binding GraphQL Data to a UI Builder Page&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;Available in Github at the &lt;a title=\"ServiceNow Next Experience\" href=\"https://github.com/ServiceNowNextExperience/graphql-tutorial\" target=\"_blank\" rel=\"noopener\"&gt;ServiceNow Next Experience&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
                             "comment" : ""
                           }
                         }
@@ -527,8 +523,10 @@
                         "value" : null
                       },
                       "isHero" : false,
+                      "extensionPoints" : [ ],
                       "isNonDestructive" : false,
-                      "styles" : { }
+                      "items" : [ ],
+                      "styles" : null
                     } ],
                     "layout" : {
                       "default" : {
@@ -549,10 +547,10 @@
                     "value" : null
                   },
                   "isHero" : false,
+                  "extensionPoints" : [ ],
                   "isNonDestructive" : false,
-                  "styles" : {
-                    "width" : "100%"
-                  }
+                  "items" : [ ],
+                  "styles" : null
                 } ],
                 "layout" : {
                   "default" : {
@@ -573,11 +571,10 @@
                 "value" : ""
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
-              "styles" : {
-                "height" : "100%",
-                "width" : "100%"
-              }
+              "items" : [ ],
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -598,10 +595,10 @@
             "value" : null
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
-          "styles" : {
-            "height" : "100%"
-          }
+          "items" : [ ],
+          "styles" : null
         } ],
         "layout" : {
           "default" : {
@@ -622,16 +619,18 @@
         "value" : ""
       },
       "isHero" : false,
+      "extensionPoints" : [ ],
       "isNonDestructive" : false,
-      "styles" : {
-        "height" : "100%",
-        "width" : "100%",
-        "background-color" : "rgb(var(--now-avatar--background-color))"
-      }
+      "items" : [ ],
+      "styles" : null
     }, {
       "elementId" : "container_5",
       "elementLabel" : "Container 5",
       "propertyValues" : {
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
         "ariaRegionName" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -643,10 +642,6 @@
         "includeAriaHeading" : {
           "type" : "JSON_LITERAL",
           "value" : false
-        },
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
         },
         "type" : {
           "type" : "JSON_LITERAL",
@@ -668,6 +663,10 @@
           "elementId" : "container_6",
           "elementLabel" : "Container 6",
           "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
@@ -679,10 +678,6 @@
             "includeAriaHeading" : {
               "type" : "JSON_LITERAL",
               "value" : false
-            },
-            "ariaRegionHeadingLevel" : {
-              "type" : "JSON_LITERAL",
-              "value" : "1"
             },
             "type" : {
               "type" : "JSON_LITERAL",
@@ -725,12 +720,18 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
-              "styles" : { }
+              "items" : [ ],
+              "styles" : null
             }, {
               "elementId" : "stylized_text_2",
               "elementLabel" : "Stylized text 2",
               "propertyValues" : {
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                },
                 "text" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -742,10 +743,6 @@
                 "tag" : {
                   "type" : "JSON_LITERAL",
                   "value" : "h2"
-                },
-                "css" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "* { }"
                 }
               },
               "eventMappings" : [ ],
@@ -760,8 +757,10 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
-              "styles" : { }
+              "items" : [ ],
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -782,14 +781,18 @@
             "value" : null
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
-          "styles" : {
-            "width" : "100%"
-          }
+          "items" : [ ],
+          "styles" : null
         }, {
           "elementId" : "container_7",
           "elementLabel" : "Container 7",
           "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
@@ -801,10 +804,6 @@
             "includeAriaHeading" : {
               "type" : "JSON_LITERAL",
               "value" : false
-            },
-            "ariaRegionHeadingLevel" : {
-              "type" : "JSON_LITERAL",
-              "value" : "1"
             },
             "type" : {
               "type" : "JSON_LITERAL",
@@ -826,6 +825,10 @@
               "elementId" : "stylized_text_3",
               "elementLabel" : "Stylized text 3",
               "propertyValues" : {
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                },
                 "text" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -837,10 +840,6 @@
                 "tag" : {
                   "type" : "JSON_LITERAL",
                   "value" : "h4"
-                },
-                "css" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "* { }"
                 }
               },
               "eventMappings" : [ ],
@@ -855,15 +854,18 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
-              "styles" : {
-                "max-height" : "initial",
-                "height" : "3rem"
-              }
+              "items" : [ ],
+              "styles" : null
             }, {
               "elementId" : "stylized_text_4",
               "elementLabel" : "Stylized text 4",
               "propertyValues" : {
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                },
                 "text" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -875,10 +877,6 @@
                 "tag" : {
                   "type" : "JSON_LITERAL",
                   "value" : "h4"
-                },
-                "css" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "* { }"
                 }
               },
               "eventMappings" : [ ],
@@ -893,11 +891,10 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
-              "styles" : {
-                "max-height" : "initial",
-                "height" : "3rem"
-              }
+              "items" : [ ],
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -918,15 +915,18 @@
             "value" : null
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
-          "styles" : {
-            "width" : "100%",
-            "height" : "3rem"
-          }
+          "items" : [ ],
+          "styles" : null
         }, {
           "elementId" : "container_10",
           "elementLabel" : "Container 10",
           "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
             "ariaRegionName" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
@@ -938,10 +938,6 @@
             "includeAriaHeading" : {
               "type" : "JSON_LITERAL",
               "value" : false
-            },
-            "ariaRegionHeadingLevel" : {
-              "type" : "JSON_LITERAL",
-              "value" : "1"
             },
             "type" : {
               "type" : "JSON_LITERAL",
@@ -963,6 +959,10 @@
               "elementId" : "stylized_text_5",
               "elementLabel" : "Stylized text 5",
               "propertyValues" : {
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                },
                 "text" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -974,10 +974,6 @@
                 "tag" : {
                   "type" : "JSON_LITERAL",
                   "value" : "pre"
-                },
-                "css" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "* { }"
                 }
               },
               "eventMappings" : [ ],
@@ -992,16 +988,18 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
-              "styles" : {
-                "padding" : "var(--now-static-space--xs)",
-                "margin" : "var(--now-static-space--lg)",
-                "background" : "rgb(var(--now-color--neutral-0))"
-              }
+              "items" : [ ],
+              "styles" : null
             }, {
               "elementId" : "stylized_text_6",
               "elementLabel" : "Stylized text 6",
               "propertyValues" : {
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                },
                 "text" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
@@ -1013,10 +1011,6 @@
                 "tag" : {
                   "type" : "JSON_LITERAL",
                   "value" : "pre"
-                },
-                "css" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "* { }"
                 }
               },
               "eventMappings" : [ ],
@@ -1031,12 +1025,10 @@
                 "value" : null
               },
               "isHero" : false,
+              "extensionPoints" : [ ],
               "isNonDestructive" : false,
-              "styles" : {
-                "background" : "rgb(var(--now-color--neutral-0))",
-                "margin" : "var(--now-static-space--lg)",
-                "padding" : "var(--now-static-space--xs)"
-              }
+              "items" : [ ],
+              "styles" : null
             } ],
             "layout" : {
               "default" : {
@@ -1057,11 +1049,10 @@
             "value" : null
           },
           "isHero" : false,
+          "extensionPoints" : [ ],
           "isNonDestructive" : false,
-          "styles" : {
-            "width" : "100%",
-            "height" : ""
-          }
+          "items" : [ ],
+          "styles" : null
         } ],
         "layout" : {
           "default" : {
@@ -1082,11 +1073,10 @@
         "value" : null
       },
       "isHero" : false,
+      "extensionPoints" : [ ],
       "isNonDestructive" : false,
-      "styles" : {
-        "width" : "100%",
-        "background" : "rgb(var(--now-color--neutral-1))"
-      }
+      "items" : [ ],
+      "styles" : null
     } ],
     "layout" : {
       "default" : {
@@ -1107,20 +1097,23 @@
     "value" : null
   },
   "isHero" : false,
+  "extensionPoints" : [ ],
   "isNonDestructive" : false,
-  "styles" : {
-    "height" : "100%"
-  }
+  "items" : [ ],
+  "styles" : null
 } ]</composition>
-    <da_relay_models/>
-    <data>[ ]</data>
-    <dispatched_events>a911df1f6f50111080ff90417bc5a5da</dispatched_events>
-    <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-    <handled_events/>
-    <interactions/>
-    <interfaces/>
-    <internal_event_mappings>{ }</internal_event_mappings>
-    <layout>{
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events>a911df1f6f50111080ff90417bc5a5da</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
   "default" : {
     "children" : null,
     "isInline" : null,
@@ -1133,14 +1126,15 @@
   },
   "version" : "3.0.0"
 }</layout>
-    <macroponent_dependencies/>
-    <name>Home</name>
-    <props>[ ]</props>
-    <required_translations>[ {
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[ {
   "message" : "&lt;p&gt;Here are example queries which you can use to start testing queries for the tutorial.&amp;nbsp; Consider a tool such as &lt;a href=\"https://insomnia.rest/\"&gt;Insomnia&lt;/a&gt; which will allow you to query your instance and supports syntax highlighting, prettifier and auto-complete of field names.&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/p&gt;\n&lt;p&gt;Available in Github at the &lt;a title=\"ServiceNow Next Experience\" href=\"https://github.com/ServiceNowNextExperience/graphql-tutorial\" target=\"_blank\" rel=\"noopener\"&gt;ServiceNow Next Experience&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. &lt;a href=\"https://www.servicenow.com/community/now-platform-articles/using-data-from-your-graphql-api-in-ui-builder-part-3-of-3/ta-p/2315430\"&gt;Binding GraphQL Data to a UI Builder Page&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;Available in Github at the &lt;a title=\"ServiceNow Next Experience\" href=\"https://github.com/ServiceNowNextExperience/graphql-tutorial\" target=\"_blank\" rel=\"noopener\"&gt;ServiceNow Next Experience&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "Get Incident",
@@ -1167,22 +1161,22 @@
   "message" : "query {\n  xSncGraphTutor {\n    university {\n      getIncident(id: \"ff4c21c4735123002728660c4cf6a758\") {\n        id\n        number\n        shortDescription\n      }\n    }\n  }\n}",
   "comment" : ""
 } ]</required_translations>
-    <root_component/>
-    <root_component_config>{ }</root_component_config>
-    <root_component_definition/>
-    <schema_version>1.0.0</schema_version>
-    <state_properties>[ ]</state_properties>
-    <sys_class_name>sys_ux_macroponent</sys_class_name>
-    <sys_created_by>jon.lind</sys_created_by>
-    <sys_created_on>2022-06-30 19:43:43</sys_created_on>
-    <sys_id>6911df1fb5501110362715ca77262cda</sys_id>
-    <sys_mod_count>18</sys_mod_count>
-    <sys_name>Home</sys_name>
-    <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
-    <sys_policy/>
-    <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
-    <sys_update_name>sys_ux_macroponent_6911df1fb5501110362715ca77262cda</sys_update_name>
-    <sys_updated_by>jon.lind</sys_updated_by>
-    <sys_updated_on>2022-07-08 21:19:55</sys_updated_on>
-  </sys_ux_macroponent>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-06-30 19:43:43</sys_created_on>
+        <sys_id>6911df1fb5501110362715ca77262cda</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6911df1fb5501110362715ca77262cda</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-08 00:48:39</sys_updated_on>
+    </sys_ux_macroponent>
 </record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace-GraphQL-Tutorial-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-08 00:43:21</sys_created_on>
+        <sys_id>b66c9f31978aa5505941bee3f153af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace GraphQL Tutorial 0</sys_name>
+        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+        <sys_update_name>sys_ui_view_b66c9f31978aa5505941bee3f153af86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-08 00:43:21</sys_updated_on>
+        <title>Workspace GraphQL Tutorial 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
